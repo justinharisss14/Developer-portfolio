@@ -1,0 +1,253 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta
+    name="description"
+    content="Portfolio of a Full-Stack Developer building responsive web applications."
+  />
+  <title>Hari Hara Sudhan | Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a href="#home" class="logo">Dev<span>Portfolio.</span></a>
+
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        aria-label="Toggle navigation"
+        aria-expanded="false"
+        aria-controls="nav-links"
+      >
+        ☰
+      </button>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact" class="nav-contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-content">
+        <p class="eyebrow"><span class="status-dot"></span> OPEN TO OPPORTUNITIES</p>
+
+        <h1>Hi, I'm <span class="accent">Hari Hara Sudhan</span><br />
+          Full-Stack Developer.</h1>
+
+        <p class="hero-description">
+          I build responsive user interfaces and practical web applications.
+          I'm passionate about solving problems and turning ideas into
+          working digital products.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">Explore My Projects ↗</a>
+          <a href="#contact" class="btn btn-outline">Contact Me</a>
+        </div>
+
+        <div class="quick-info">
+          <span>HTML & CSS</span>
+          <span>JavaScript</span>
+          <span>Learning Full-Stack</span>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <div class="card-top">
+          <span class="window-dot red"></span>
+          <span class="window-dot yellow"></span>
+          <span class="window-dot green"></span>
+          <span class="card-label">developer.js</span>
+        </div>
+
+        <pre><code><span class="code-purple">const</span> developer = {
+  name: <span class="code-green">"Hari Hara Sudhan"</span>,
+  role: <span class="code-green">"Full-Stack Developer"</span>,
+  skills: [
+    <span class="code-green">"HTML"</span>,
+    <span class="code-green">"CSS"</span>,
+    <span class="code-green">"JavaScript"</span>
+  ],
+  learning: <span class="code-green">"Backend Development"</span>,
+  build: <span class="code-green">"Useful Products"</span>
+};
+
+<span class="code-purple">function</span> <span class="code-blue">create</span>() {
+  <span class="code-purple">return</span> <span class="code-green">"Keep building!"</span>;
+}</code></pre>
+      </div>
+    </section>
+
+    <section class="section container" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">GET TO KNOW ME</p>
+        <h2>About <span class="accent">Me</span></h2>
+      </div>
+
+      <div class="about-card">
+        <p>
+          I'm an aspiring Full-Stack Developer interested in creating
+          useful, accessible, and responsive web applications. I enjoy
+          learning new technologies, solving problems, and improving my
+          development skills through hands-on projects.
+        </p>
+        <p>
+          My current focus is strengthening my frontend fundamentals
+          while learning APIs, server-side development, and databases.
+        </p>
+      </div>
+    </section>
+
+    <section class="section container" id="skills">
+      <div class="section-heading">
+        <p class="eyebrow">WHAT I'M LEARNING</p>
+        <h2>Technical <span class="accent">Skills</span></h2>
+      </div>
+
+      <div class="skills-grid">
+        <article class="skill-card">
+          <span class="skill-icon">01</span>
+          <h3>Frontend</h3>
+          <p>HTML5, CSS3, JavaScript, Responsive Design</p>
+        </article>
+
+        <article class="skill-card">
+          <span class="skill-icon">02</span>
+          <h3>Backend</h3>
+          <p>Node.js, Express, REST APIs</p>
+        </article>
+
+        <article class="skill-card">
+          <span class="skill-icon">03</span>
+          <h3>Database</h3>
+          <p>SQL, SQLite, Data Modeling</p>
+        </article>
+
+        <article class="skill-card">
+          <span class="skill-icon">04</span>
+          <h3>Developer Tools</h3>
+          <p>VS Code, Git, GitHub, Browser DevTools</p>
+        </article>
+      </div>
+      <p class="note">
+        These are the technologies targeted by your three-day plan.
+        Keep skills listed here only if you can demonstrate or explain them.
+      </p>
+    </section>
+
+    <section class="section container" id="projects">
+      <div class="section-heading">
+        <p class="eyebrow">MY WORK</p>
+        <h2>Featured <span class="accent">Projects</span></h2>
+        <p class="section-description">
+          Practical projects built to strengthen my development skills.
+        </p>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-visual visual-one">
+            <span>01 / FRONTEND</span>
+            <div class="mini-browser">
+              <div class="mini-browser-top">● ● ●</div>
+              <div class="mini-browser-content">
+                <div class="mini-line"></div>
+                <div class="mini-line short"></div>
+                <div class="mini-blocks"><i></i><i></i><i></i></div>
+              </div>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3>Developer Portfolio</h3>
+            <p>A responsive portfolio presenting my skills, projects, and contact information.</p>
+            <div class="tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+            <a href="#home" class="project-link">You're viewing this project ↗</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-visual visual-two">
+            <span>02 / FULL-STACK</span>
+            <div class="task-preview">
+              <div>MY TASKS <span>✓</span></div>
+              <p>○ Design user interface</p>
+              <p>✓ Build task API</p>
+              <p>○ Connect database</p>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3>Task Management App</h3>
+            <p>A task manager with CRUD operations and database persistence.</p>
+            <div class="tags">
+              <span>JavaScript</span><span>Node.js</span><span>SQLite</span>
+            </div>
+            <span class="project-link upcoming">Planned for Day 2</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-visual visual-three">
+            <span>03 / FULL-STACK</span>
+            <div class="analytics-preview">
+              <div class="analytics-bars">
+                <i></i><i></i><i></i><i></i><i></i><i></i>
+              </div>
+              <div class="analytics-label">SALES OVERVIEW</div>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3>E-commerce Analytics</h3>
+            <p>A dashboard showing sales metrics and product insights through APIs.</p>
+            <div class="tags">
+              <span>JavaScript</span><span>REST API</span><span>SQL</span>
+            </div>
+            <span class="project-link upcoming">Planned for Day 3</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="container contact-content">
+        <p class="eyebrow">LET'S CONNECT</p>
+        <h2>Have an opportunity?<br /><span class="accent">Let's talk.</span></h2>
+        <p>I'm interested in developer opportunities and learning from real projects.</p>
+
+        <div class="contact-buttons">
+          <a class="btn btn-primary" href="mailto:just.haris14@gmail.com">
+            Email Me ↗
+          </a>
+          <a
+            class="btn btn-outline"
+            href="https://github.com/justinharisss14"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub ↗
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>© <span id="year">2026</span> Hari Hara Sudhan. Built with HTML, CSS & JavaScript.</p>
+      <a href="#home">Back to top ↑</a>
+    </div>
+  </footer>
+</body>
+</html>

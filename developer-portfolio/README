@@ -1,0 +1,37 @@
+
+# Developer Portfolio
+
+A responsive personal portfolio built with HTML, CSS, and JavaScript.
+
+## Features
+
+- Responsive layout for desktop and mobile
+- Mobile navigation menu
+- About and technical skills sections
+- Featured project cards
+- Email and GitHub links
+- Dynamic copyright year
+- Active section navigation
+
+## Technologies
+
+- HTML5
+- CSS3
+- JavaScript
+- Git and GitHub
+
+## Run Locally
+
+1. Clone this repository.
+2. Open the project folder in VS Code.
+3. Open `index.html` using Live Server.
+
+## Future Improvements
+
+- Add completed full-stack projects
+- Connect a contact form to a backend API
+- Deploy the website publicly
+
+## Author
+
+Your Name
